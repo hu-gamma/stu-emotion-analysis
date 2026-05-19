@@ -1,0 +1,60 @@
+# 模型检查点 (25GB+)
+checkpoints/
+
+# 数据集
+datasets/
+external_datasets/
+data/
+data_processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 系统文件
+.DS_Store
+Thumbs.db
+.claude/
+
+# 环境变量
+.env
+.env.local
+
+# 结果
+results/
+
+# 模型
+models/
+
+# 压缩/二进制
+*.zip
+*.tar.gz
+*.pth
+*.pt
+*.bin
+*.h5
+*.pb
+*.onnx
