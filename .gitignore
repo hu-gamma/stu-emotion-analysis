@@ -1,10 +1,9 @@
 # 模型检查点 (25GB+)
 checkpoints/
 
-# 数据集
-datasets/
+# 数据集 (原始数据文件)
+datasets/csv/*.csv
 external_datasets/
-data/
 data_processed/
 
 # Python
@@ -43,11 +42,16 @@ Thumbs.db
 .env
 .env.local
 
-# 结果
+# 结果 (实验输出)
 results/
 
-# 模型
-models/
+# 预训练模型权重文件 (大文件)
+*.pth
+*.pt
+*.bin
+*.h5
+*.pb
+*.onnx
 
 # 压缩/二进制
 *.zip
